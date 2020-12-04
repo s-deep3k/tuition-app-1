@@ -16,6 +16,7 @@ function Home(props) {
 
       <main className="font-body">
         <Form />
+        <Landing1 />
       </main>
     </div>
   )

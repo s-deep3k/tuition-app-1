@@ -48,7 +48,7 @@ const Form = () => {
             itemConfig : {
                 name : 'Your profession'
             },
-            value : '',
+            value : 'Your profession',
             options : [
                 'student',
                 'teacher',
