@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../UI/Button.component";
+import { ArrowDown } from "../utils/Icons";
 function Landing1() {
     return (
         <>
@@ -141,12 +142,17 @@ function Landing1() {
                         </g>
                     </svg>
                     <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">The Most Advanced Tutelage to show you the pathway towards <span className="text-green-300">success!</span></h1>
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">The Most Advanced Tutelage to show you the pathway towards <span className="text-green-200">success!</span></h1>
                         <div className="bg-white lg:w-20 md:w-16 sm:w-14 w-8 h-1 mx-auto my-3 rounded-xl"/>
                     </div>
                     <div className="flex justify-center items-center mb-10 sm:mb-20">
                         <Button primary textCol="blue">Our courses</Button>
-                        <Button textCol="white">Explore</Button>
+                        <Button textCol="white" adderclass="flex place-content-center items-center gap-2">
+                            <span>
+                                Explore
+                            </span>
+                            <ArrowDown size="1.2rem"/>
+                        </Button>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,11 @@
 import Head from 'next/head'
 import { connect } from 'react-redux'
 import AboutUS from '../components/mains/AboutUS'
-import Courses from '../components/mains/Courses'
-import Faq from '../components/mains/Faq'
 import Form from '../components/mains/Form'
 import Landing1 from '../components/mains/Landing1'
-import Dropdown from '../components/UI/Dropdown.component'
 
 function Home(props) {
-  console.log(props)
+  console.log(props) 
   return (
     <div>
       <Head>
@@ -19,7 +16,6 @@ function Home(props) {
       <main className="font-body">
         <Landing1 />
         <AboutUS />
-        <Courses />
       </main>
     </div>
   )
