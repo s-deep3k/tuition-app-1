@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../UI/Button.component";
 function Landing1() {
     return (
         <>
@@ -14,7 +15,7 @@ function Landing1() {
                                 />
                             </g>
                         </svg>
-                        <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">The North</p>
+                        <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">Wisdom Tutelage</p>
                     </div>
                     <div>
                         <div onclick="toggleMenu(true)" className="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
@@ -48,7 +49,7 @@ function Landing1() {
                 </div>
             </nav>
             <div className="w-full px-6">
-                <div className="mt-8 relative rounded-3xl bg-blue-600 container mx-auto flex flex-col items-center pt-12 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
+                <div className="mt-8 relative rounded-3xl bg-blue-600 container mx-auto flex flex-col place-items-center pt-12 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
                     <svg className="mr-2 lg:mr-12 mt-2 lg:mt-12 absolute right-0 top-0" width="104px" height="95px" viewBox="0 0 104 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                         <g id="Work-in-Progress" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd" opacity="0.122837612">
                             <g transform="translate(-1139.000000, -175.000000)" fill="#FFFFFF">
@@ -140,11 +141,12 @@ function Landing1() {
                         </g>
                     </svg>
                     <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">The Freedom to Create the Pages You Want</h1>
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">The Most Advanced Tutelage to show you the pathway towards <span className="text-green-300">success!</span></h1>
+                        <div className="bg-white lg:w-20 md:w-16 sm:w-14 w-8 h-1 mx-auto my-3 rounded-xl"/>
                     </div>
                     <div className="flex justify-center items-center mb-10 sm:mb-20">
-                        <button className="bg-white transition duration-150 ease-in-out focus:outline-none hover:bg-gray-100 rounded text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Get Started</button>
-                        <button className="ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none hover:bg-blue-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">Learn More</button>
+                        <Button primary textCol="blue">Our courses</Button>
+                        <Button textCol="white">Explore</Button>
                     </div>
                 </div>
             </div>

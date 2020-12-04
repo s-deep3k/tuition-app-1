@@ -23,7 +23,7 @@ const Dropdown = ({options,onChange,state}) => {
     }
     //const closeHandler = _ => { setDropdown(CLOSE),onChange} ;
     return (
-        <div className="relative inline-block text-left w-1/2 self-end">
+        <div className="relative inline-block text-left w-3/5 self-end">
         <div>
           <button onClick={ToggleHandler} 
           className="bg-gray-100 inline-flex text-xl capitalize justify-between items-center rounded-xl px-3 py-2 w-full text-blue-600 font-bold focus:outline-none focus:ring-blue-500" 

@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { connect } from 'react-redux'
+import AboutUS from '../components/mains/AboutUS'
+import Courses from '../components/mains/Courses'
 import Faq from '../components/mains/Faq'
 import Form from '../components/mains/Form'
 import Landing1 from '../components/mains/Landing1'
@@ -15,8 +17,9 @@ function Home(props) {
       </Head>
 
       <main className="font-body">
-        <Form />
         <Landing1 />
+        <AboutUS />
+        <Courses />
       </main>
     </div>
   )
