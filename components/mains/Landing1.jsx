@@ -19,7 +19,7 @@ function Landing1() {
                         <p className="ml-2 lg:ml-4 text-base lg:text-2xl font-bold text-gray-800">Wisdom Tutelage</p>
                     </div>
                     <div>
-                        <div onClick="toggleMenu(true)" className="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+                        <div /*onClick="toggleMenu(true)"*/ className="sm:block md:hidden lg:hidden text-gray-500 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
                             <svg aria-haspopup="true" aria-label="Main Menu" xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" />
                                 <line x1={4} y1={8} x2={20} y2={8} />
