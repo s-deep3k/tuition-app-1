@@ -23,7 +23,7 @@ const AboutUS = () => {
                 <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-red-200 rounded-full" />
                 </div>
                 <div>
-                <h3 className="text-2xl mb-4 font-semibold font-heading">Client: Realweb</h3>
+                <h3 className="text-2xl mb-4 font-semibold font-heading text-gray-500">Know us better!</h3>
                 <p className="text-gray-400 leading-relaxed">We, The WISDOM TUTELAGE, give proper guidance, support, and knowledge to get everyone’s destiny and success. Our motto is to offer a quality service to the candidates who have the real urge to be the leaders in their respective academic fields. There are no short-cuts in this competitive world.{ readMore && <span>So, here, we are always ready to help the students to achieve their goals by giving them proper wisdom.The perfect forum for cracking all India competitive tests such as CSIR-UGC NET-LS / JRF. Doors towards ICMR JRF and DBT JRF is WISDOMTUTELAGE.We are proficient in all areas of life sciences, including BOTANY, BIOCHEMISTRY, ZOOLOGY, ECOLOGY, GENETICS, MICROBIOLOGY, MOLECULAR BIOLOGY, and CHEMISTRY.As a subject expert, our esteemed educators guide the student for more than the past 10 years on the different career options that can be selected. Many of our graduates are well-respected national researchers (IISER, CDRI, IITs, NIPGR, BSI, CU, JU, Presidency University), bankers and businessmen, etc.</span>}</p>
                 <div className="text-blue-600 font-semibold cursor-pointer flex items-center gap-1 w-max mx-auto" onClick={readStateToggler}>
                     <span>Read {readState}</span>

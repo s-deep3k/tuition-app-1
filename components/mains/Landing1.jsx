@@ -6,7 +6,7 @@ function Landing1() {
         <>
         <div>
             <nav className="w-full">
-                <div className="container mx-auto px-6 flex items-center justify-between">
+                <div className="container mx-auto px-4 flex items-center justify-between">
                     <div className="flex items-center">
                         <svg aria-label="Home" className="cursor-pointer w-8 sm:w-auto" id="logo" enableBackground="new 0 0 300 300" height={54} viewBox="0 0 300 300" width={53} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <g>
