@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import AboutUS from '../components/mains/AboutUS'
 import Form from '../components/mains/Form'
 import Landing1 from '../components/mains/Landing1'
+import Testimonials from '../components/mains/Testimonials'
 
 function Home(props) {
   console.log(props) 

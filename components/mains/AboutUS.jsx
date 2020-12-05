@@ -10,16 +10,17 @@ const AboutUS = () => {
         setState(textToggler);
         setRead(!readMore);
     }
+
     return (
         <section className="py-12 px-4 text-center">
             <h2 className="text-4xl font-semibold font-heading text-blue-600 p-0">About us</h2>
             <div className="bg-blue-200 w-14 h-1 mx-auto my-3 rounded-xl mb-8"/>
             <div className="max-w-2xl mx-auto">
-                <img className="rounded-xl shadow" src="/images/teach.jpg" alt="teach" />
+                <img className="rounded-3xl shadow" src="/images/teach.jpg" alt="teach" />
                 <div className="text-center mt-8 mb-6">
-                <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-blue-400 rounded-full" />
+                <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-blue-400 rounded-full cursor-pointer" />
                 <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-green-200 rounded-full" />
-                <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-yellow-200 rounded-full" />
+                <span className="inline-flex items-center justify-center h-3 w-3 mr-2 bg-red-200 rounded-full" />
                 </div>
                 <div>
                 <h3 className="text-2xl mb-4 font-semibold font-heading">Client: Realweb</h3>
