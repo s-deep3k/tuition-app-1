@@ -51,10 +51,10 @@ function Landing1() {
                                     <a href="javascript: void(0)">Contact us</a>
                                 </li>
                             </ul>
-                            <div>
+                           {/* <div>
                                 <Button primary bgCol="green-600" textCol="green-100">Student</Button>
                                 <Button secondary bgCol="blue" textCol="white">Admin</Button>
-                            </div>
+                           </div>*/}
                         </div>
                     </div>
                 </div>
