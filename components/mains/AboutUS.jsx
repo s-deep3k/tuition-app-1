@@ -13,7 +13,7 @@ const AboutUS = () => {
 
     return (
         <section className="py-12 px-4 text-center">
-            <h2 className="text-4xl font-semibold font-heading text-blue-600 p-0">About us</h2>
+            <h2 className="text-4xl font-semibold font-heading text-blue-500 p-0">About us</h2>
             <div className="bg-blue-200 w-14 h-1 mx-auto my-3 rounded-xl mb-8"/>
             <div className="max-w-2xl mx-auto">
                 <img className="rounded-3xl shadow" src="/images/teach.jpg" alt="teach" />

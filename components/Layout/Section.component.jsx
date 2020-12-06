@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section = ({header,children}) => {
+const Section = ({header,children,color}) => {
     return (
        <section className="py-12 px-4 text-center">
           <div>

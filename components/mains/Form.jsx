@@ -70,6 +70,7 @@ const Form = () => {
         if(id === 'dropdown') updatedFormitem.value = eve.target.innerHTML;
         else updatedFormitem.value = eve.target.value;
         updatedForm[id] = updatedFormitem;
+        localStorage.setItem('form',JSON.stringify(form))
         setForm(updatedForm);
         console.log(updatedFormitem);
     }
