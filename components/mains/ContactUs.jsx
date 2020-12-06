@@ -42,10 +42,20 @@ const ContactUs = () => {
         })
         sessionStorage.setItem('valueInSessionStorage', JSON.stringify(formState))
     }
+    
+    const formSubmit = async (eve) => {
+        eve.preventDefault();
+        setForm({
+            name : '',
+            email : '',
+            query :''
+        })
+        sessionStorage.clear();
+    }
     return (
      <Section header="Contact the Tutelage team" color="green">
          <div className="w-full max-w-2xl mx-auto mb-12">
-          <form>
+          <form onSubmit={(eve) => formSubmit(eve)}>
             <div className="flex mb-4 -mx-2">
               <div className="w-1/2 px-2">
                 <input 
@@ -75,7 +85,6 @@ const ContactUs = () => {
                 onChange={eve => changeHandler(eve)}
                 value={query}/></div>
             <div>
-              {/*<button className="inline-block w-full py-4 px-8 leading-none text-white bg-blue-600 hover:bg-blue-700 font-semibold rounded-md shadow">Submit</button>*/}
               <Button 
               adderclass="w-full"
               primary 
