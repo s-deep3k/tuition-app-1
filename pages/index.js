@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import useSWR from 'swr'
 import AboutUS from '../components/mains/AboutUS'
 import ContactUs from '../components/mains/ContactUs'
+import Courses from '../components/mains/Courses'
 import Form from '../components/mains/Form'
 import Landing1 from '../components/mains/Landing1'
 import Testimonials from '../components/mains/Testimonials'
@@ -23,6 +24,7 @@ function Home(props) {
       <main className="font-body">
         <Landing1 />
         <AboutUS />
+        <Courses />
         <ContactUs />
       </main>
     </div>
