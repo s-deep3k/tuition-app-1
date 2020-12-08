@@ -1,4 +1,5 @@
 import React from 'react'
+import Section from '../Layout/Section.component';
 import { ChevronDown, ChevronUp } from '../utils/Icons';
 
 const AboutUS = () => {
@@ -12,9 +13,7 @@ const AboutUS = () => {
     }
 
     return (
-        <section className="py-12 px-4 text-center">
-            <h2 className="text-4xl font-semibold font-heading text-blue-500 p-0">About us</h2>
-            <div className="bg-blue-200 w-14 h-1 mx-auto my-3 rounded-xl mb-8"/>
+        <Section header="About us" color="blue">
             <div className="max-w-2xl mx-auto">
                 <img className="rounded-3xl shadow" src="/images/teach.jpg" alt="teach" />
                 <div className="text-center mt-8 mb-6">
@@ -35,7 +34,7 @@ const AboutUS = () => {
                 </div>
                 </div>
             </div>
-        </section>
+        </Section>
 
     )
 }

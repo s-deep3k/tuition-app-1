@@ -4,14 +4,12 @@ import useSWR from 'swr'
 import AboutUS from '../components/mains/AboutUS'
 import ContactUs from '../components/mains/ContactUs'
 import Courses from '../components/mains/Courses'
-import Form from '../components/mains/Form'
 import Landing1 from '../components/mains/Landing1'
-import Testimonials from '../components/mains/Testimonials'
-
+import Testimonials2 from '../components/mains/Testimonials2'
 function Home(props) {
   const fetcher = url => fetch(url).then(res => res.json());
 
-  const { data,error } = useSWR('https://tutelagedb.herokuapp.com/tutor',fetcher);
+  const { data,error } = useSWR('https://tutelagedb.herokuapp.com/course',fetcher);
 
   console.log(data);
   return (
